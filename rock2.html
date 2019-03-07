@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Rock2</title>
+    <link rel="stylesheet" href="rock2.css">
+  </head>
+  <body>
+    <h1>Apollo</h1>
+      <div id="two-column-container">
+        <div id="player-column" class="columns">
+          <div id="button-container">
+            <button id="charge" title="Charge Weapons"></button>
+            <button id="fire" title="Fire Weapons"></button>
+            <button id="shields" title="Sheilds Up"></button>
+            <button id="super" title="Fire Super Weapon"></button>
+          </div>
+          <div id="player-ship-and-status-container">
+            <img id="player-ship" src="ship.png">
+            <div id="player-health">
+              <div id="player-weapon-label">Weapon Charge
+              </div>
+              <div id="player-weapon-charge-outline">
+                <div id="player-weapon-status"></div>
+              </div>
+              <div id="player-shield-status">Shields Ready
+              </div>  
+              <div id="player-score"></div> 
+            </div>
+          </div>
+        </div>
+      <div id="computer-column" class="columns">
+      <img id="computer-ship" src="ship_comp.png">
+      <div id="computer-health">
+        <div id="computer-weapon-label">Weapon Charge
+        </div>
+          <div id="computer-weapon-charge-outline">
+            <div id="computer-weapon-status"></div>
+          </div>
+          <div id="computer-shield-status">Shields Ready
+            </div>
+            <div id="computer-score"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="rock2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+*{
+  font-family: Trebuchet MS;
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.columns{
+  padding: 25px;
+}
+
+#two-column-container{
+  display:flex;
+}
+
+button{
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 25px;
+  border: none;
+  margin-right: 50px;
+}
+
+#player-column{
+  display: flex;
+  border-right: solid black 1px;
+}
+
+#player-ship{
+  margin-top: 20px;
+  height: 170px;
+  width: 170px;
+}
+
+#button-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+#computer-ship{
+  margin-top: 20px;
+  height: 170px;
+  width: 170px;
+}
+
+#charge{
+  background-image: url("ship.png");
+}
+
+#fire{
+  background-image: url("fire.png");
+  display: none;
+}
+
+#shields{
+  background-image: url("shield.png");
+}
+
+#super{
+  background-image: url("super.png");
+  display: none;
+}
+
+#player-health{
+  margin-top: 40px;
+}
+
+#player-weapon-charge-outline{
+ height: 8px;
+ width: 100px;
+ border: solid 1px red;
+ margin-left: 25px;
+}
+
+#player-weapon-status{
+  height: 8px;
+  width: 5px;
+  background: red;
+
+}
+
+#player-weapon-label{
+  font-size: 12;
+  margin-left: 30px;
+}
+
+#player-shield-status{
+  background: rgb(109, 161, 179);
+  font-size: 12;
+  color: white;
+  width: 100px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+#computer-health{
+  margin-top: 40px;
+}
+#computer-weapon-charge-outline{
+  height: 8px;
+  width: 100px;
+  border: solid 1px red;
+  margin-left: 50px;
+ }
+ 
+ #computer-weapon-status{
+   height: 8px;
+   width: 5px;
+   background: red;
+ 
+ }
+ 
+ #computer-weapon-label{
+   font-size: 12;
+   margin-left: 55px;
+ }
+
+ #computer-shield-status{
+  background: rgb(109, 161, 179);
+  font-size: 12;
+  color: white;
+  width: 100px;
+  margin-left: 50px;
+  text-align: center;
+ }
+
+#player-score{
+  margin-left: 25px;
+}
+
+#computer-score{
+  margin-left: 50px;
+}
